@@ -48,7 +48,7 @@ public class Game {
     public void result(int result) {
         switch (result) {
             case -1:
-                System.out.println("Computer wins!");
+                System.out.println("Sorry, you lose.");
                 computerScore++;
                 break;
             case 0:
